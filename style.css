@@ -12,22 +12,22 @@ p {
 }
 
 .page {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   background: #eeeeee;
 }
 
 .header {
   height: 100vh;
-  background-image: url("./images/background.jpg");
+  background-image: url('./images/background.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 
 .header__title {
-  font-family: "Permanent Marker", cursive;
-  font-size: 140px;
-  line-height: 140px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100px;
+  line-height: 100px;
   color: white;
   text-transform: uppercase;
   margin: auto;
@@ -59,7 +59,7 @@ p {
 
 .card__title {
   font-size: 24px;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   margin-bottom: 10px;
 }
 
