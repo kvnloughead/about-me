@@ -2,14 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Kevin's Story</title>
+    <title>My Story</title>
     <link href="style.css" rel="stylesheet" />
     <link href="fonts/fonts.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
-      href="https://code.s3.yandex.net/web-code/favicon.ico"
+      href="https://practicum-content.s3.us-west-1.amazonaws.com/web-code/favicon.ico"
       rel="icon"
       type="image/x-icon"
     />
@@ -17,29 +14,34 @@
   <body class="page">
     <header class="header">
       <div class="overlay">
+        <p class="header__banner">Software Engineer</p>
         <h1 class="header__title">Kevin Loughead</h1>
       </div>
     </header>
     <main class="content">
       <div class="card">
         <img
-          alt="Illustration of Kevin Loughead"
+          alt="Tripleten logo"
           class="card__image"
-          src="./images/me.png"
+          src="./images/icon-dark.svg"
         />
-        <h2 class="card__title">Tutor and Author</h2>
-        <p class="card__text">
-          I'm a writer and tutor at the TripleTen Software Engineering bootcamp,
-          and also a graduate of the same program.
-        </p>
+        <div class="card__content">
+          <h2 class="card__title">Tutor and Author</h2>
+          <p class="card__description">
+            I'm a writer and tutor at the TripleTen Software Engineering
+            bootcamp, and also a graduate of the same program.
+          </p>
+        </div>
       </div>
       <div class="card">
         <img alt="Command line" class="card__image" src="./images/cli.jpg" />
-        <h2 class="card__title">Programming</h2>
-        <p class="card__text">
-          I love programming and the command line and feel very lucky that I get
-          paid for teaching it and writing about it.
-        </p>
+        <div class="card__content">
+          <h2 class="card__title">Programming</h2>
+          <p class="card__description">
+            I love programming and the command line and feel very lucky that I
+            get paid for teaching it and writing about it.
+          </p>
+        </div>
       </div>
       <div class="card">
         <img
@@ -47,23 +49,27 @@
           class="card__image"
           src="./images/family.jpeg"
         />
-        <h2 class="card__title">Family</h2>
-        <p class="card__text">
-          Family is very important to me. I have a wife and three grown
-          children, plus several younger niblings.
-        </p>
+        <div class="card__content">
+          <h2 class="card__title">Family</h2>
+          <p class="card__description">
+            Family is very important to me. I have a wife and three grown
+            children, plus several younger niblings.
+          </p>
+        </div>
       </div>
       <div class="card">
         <img alt="Two backpacks" class="card__image" src="./images/rowdy.jpg" />
-        <h2 class="card__title">Pets</h2>
-        <p class="card__text">
-          I have an extensive non-human family too, including a dog, two cats,
-          and 11 birds.
-        </p>
+        <div class="card__content">
+          <h2 class="card__title">Pets</h2>
+          <p class="card__description">
+            I have an extensive non-human family too, including a dog, two cats,
+            and 11 birds.
+          </p>
+        </div>
       </div>
     </main>
     <footer class="footer">
-      <p class="footer__author">Kevin Loughead x TripleTen</p>
+      <p class="footer__author">Kevin Loughead | TripleTen</p>
     </footer>
   </body>
 </html>
